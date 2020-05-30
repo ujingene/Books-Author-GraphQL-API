@@ -15,6 +15,15 @@ mongoose.connect('mongodb://localhost:27017/library', {
     useUnifiedTopology: true
 }); 
 
+//connect to MongoDb Cloud
+/* const uri = "mongodb+srv://test:EyWNn3ThM7GwmxZg@cluster0-wcgph.mongodb.net/test?retryWrites=true&w=majority";
+
+ mongoose.connect(uri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    serverSelectionTimeoutMS: 50000 // Timeout after 5s instead of 30s
+});  */
+
 mongoose.connection.once('open', () => {
     console.log('Connected to localhost database');
 })
