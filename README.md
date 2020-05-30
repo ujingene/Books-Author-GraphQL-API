@@ -7,8 +7,8 @@ This is the Back end of the Books - Author React App. Built using NodeJS, GraphQ
 ```
 Ensure the following are installed.
 ```
-- Node v5 + [NodeJs Download](https://nodejs.org/en/download/)
-- MongoDb Compass Community [MongoDB Download](https://www.mongodb.com/download-center/compass)
+- Node v5 + [Download](https://nodejs.org/en/download/)
+- MongoDb Compass Community [Download](https://www.mongodb.com/download-center/compass)
 
 ### Clone the App from github
 ```
@@ -41,7 +41,6 @@ npm start
 
 ### Author
 
-Eugene Wanjira
 [Eugene Wanjira](http://www.github.com/ujingene)
 
 ### Version
